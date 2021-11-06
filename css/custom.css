@@ -1,0 +1,464 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html {
+    fpnt-size: 62.5%;
+    scroll-behaviour:smooth;
+}
+
+body {
+    background-color:#FAF0E6;
+    --main-color:#fff;
+    --background-color: #FAF0E6;
+    --button-background:#fff;
+    --primary-button-background: black;
+   
+}
+
+.container-fluid{
+    padding:0px 5rem !important;
+    /* background-color:#FAF0E6 */
+}
+h1,
+h2 {
+    font-family:roboto;
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color );
+}
+
+h4,
+h3 {
+    font-weight:750;
+    font-size:2.2rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+p,
+a,
+li,
+button {
+    font-family: sf-pro-text;
+    color:#000;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    /* font-size:1.8rem; */
+    line-height: 150%;
+    font-style:normal;
+    font-weight:normal;
+}
+
+a {
+    text-decoration:none;
+    cursor:pointer;
+}
+
+li {
+    liststyle:none;
+}
+
+button  {
+    /* padding:1rem 3rem;
+    border-radius:2rem;
+    border:none;
+    outline:none;
+    line-height:3.6rem;
+    cursor:pointer;
+    font-style:normal;
+    font-wight:normal;
+    font-size:2rem; */
+    
+
+
+}
+
+/*----------------------------------------- our header style 
+----------------------------------------------------------------------------------------------------------*/
+
+header{
+    padding:0;
+    margin:0;
+    background:transparent;
+}
+
+header .head-wrapper{
+    display:flex;
+    flex-direction:column;
+}
+
+header .banner-image {
+    padding:0;
+    margin:0;
+
+    
+}
+.banner-image img {
+    width: 100%;
+    max-width: 100%;
+    height:100vh;
+    max-height: 100vh;
+    /* object-fit:cover; */
+}
+
+.header-wrapper .container-fluid{
+    padding:0px 5rem !important;
+    background-color:#FAF0E6;
+    box-sizing:border-box;
+
+}
+.menubar{
+    width:100%;
+    position:absolute;
+    left:0;
+    top:2rem;
+    display:block;
+   
+}
+
+.header-buttons{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:auto;
+    height:100%;
+    /* padding: 0 2rem; */
+}
+
+.header-buttons  a {
+    padding: 0.1rem 1.8rem;
+    border-radius:2rem;
+    border:none;
+    outline:none;
+    line-height: 2.5rem;
+    cursor:pointer;
+    font-style:normal;
+    font-wight:normal;
+    font-size:1rem;
+    background-color:white;
+    text-decoration:none;
+    color:#000;
+
+}
+
+.header-buttons  a:hover {
+    background-color: var(--primary-button-background);
+    color: var(--main-color);
+    transition:0.5s ease ;
+}
+
+.heading-text h1{
+    font-weight:800;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/********************* for side bar menues ************************************************************ */
+
+
+sidebar{
+    background-color:lightgrey;
+    position:fixed;
+    left:0;
+    width:30%;
+    height:100vh;
+} 
+
+sidebar header{
+    font-size:2rem;
+    color:white;
+    text-align:center;
+    line-height:7rem;
+    background:grey;
+    user-select:none;
+} 
+
+sidebar ul a {
+    display:block;
+    height:100%;
+    width:100%;
+    line-height:2rem;
+    font-size:1rem;
+    color:white;
+    padding-left:4rem;
+    box-sizing:border-box;
+    border-top: 1px solid white;
+    border
+
+} 
+
+/* head row  */
+
+head .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+header .banner-content{
+    position:absolute;
+    top:50vh;
+    /* left:3rem */
+}
+
+/* banner-content **************************/
+
+.banner-content h2 {
+    font-weight:500;
+    line-height:2.5rem;
+    font-size:2.5rem;
+}
+.banner-content h2 span {
+    background-color:transparent;
+    font-weight:1000;
+    line-height:3rem;
+    font-size:3.5rem;
+}
+.banner-content p {
+  color:white;
+  font-size:1rem;
+  font-family: 'Roboto', sans-serif;
+  margin-top:-1rem;
+
+}
+
+/*********** header-bottom button *******************/
+
+.header-bottom-btn button a {
+    padding:0.8rem 2rem;
+    border-radius:2rem;
+    border:none;
+    outline:none;
+    /* line-height:3.6rem; */
+    cursor:pointer;
+    font-style:normal;
+    font-wight:normal;
+    font-size:1rem;
+    background-color:#000;
+    text-decoration:none;
+    color:white;
+    position:absolute;
+    bottom:-1.5rem;
+    right:3.5rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5 );
+}
+
+.header-bottom-btn button a:hover {
+    background-color: var(--main-color);
+    color: var(--primary-button-background);
+    transition:0.5s ease ;
+}
+
+
+/* section 1st************************************** */
+
+
+.section-1st-content {
+    position: absolute;
+    bottom: 1rem;
+    left: auto;
+    
+}
+.section-1st .container-fluid{
+    /* position:relative; */
+    padding:80rem;
+    box-sizing:border-box;
+    border-bottom:1px solid lightgrey;
+    
+}
+
+.section-1st-content h3 {
+    font-weight:800;
+    /* line-space:rem; */
+    font-size:2.5rem;
+} 
+.section-1st-content p {
+    /* font-weight:500; */
+    font-size:1.5rem;
+
+} 
+
+.section-1st-image img{
+    width:100%;
+    max-width:100%;
+    height:100%;
+    object-fit:cover;
+    padding:2rem;
+}
+
+
+
+/************************************************** slider section ***************
+****************************************************************************************************************** */
+
+.heading{
+    margin-top:3rem;
+    margin-bottom:2rem;
+}
+
+.slick-next:before{
+    color:black;
+    font-size:2rem;
+}
+.slick-prev:before {
+    color: black;
+    font-size: 2rem;
+}
+.card{
+    margin-right:10px;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    font-size: 2rem;
+}
+.star i{
+    color:#eac096;
+}
+.silver{
+    color: #e6e6e6 !important;
+}
+
+.slide-btm{
+    line-height:2rem;
+
+}
+
+
+.outer {
+    background-image:url('../images/girls-bg.jpg')  ; /* The image used */
+    height: 650px; /* You must set a specified height */
+    width:100%;
+    background-size: cover;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border-bottom-left:10px;
+    border-bottom-right:10px;
+    position:relative;
+    margin-top:5%;
+  }
+
+  
+  .outer .container-fluid{
+    position:absolute;
+    top:50%;
+    left:auto;
+
+}
+
+.outer .container-fluid .row{
+    width:90%
+
+}
+.heading{
+    margin-bottom:4rem;
+}
+.heading h2{
+    font-size:4rem;
+    font-weight:700;
+}
+
+.heading p{
+    color:white;
+    font-size:1.5rem;
+    margin-top:-1rem;
+}
+.outer .col-md-3 h4 {
+    color:white;
+}
+.outer .col-md-3 p {
+    color:white;
+    
+}
+
+/* logo section ******************************************** */
+
+.logos {
+    margin: 5% auto;
+   
+}
+
+  /* @include media-breakpoint-between (xs, sm) {  
+    .logo .container-fluid .parent {
+        display:flex !important;
+        flex-direction:column  !important;
+      }
+      
+  }
+ 
+
+  @include media-breakpoint-between(md, xl) { 
+    .logo .container-fluid .parent {
+        display:flex  !important;
+        flex-direction:row  !important;  
+  } */
+
+
+  /* imagy clothes     background ***************************** */
+
+  .imagy-background{
+    background-image:url('../images/clothes.jpg')  ; /* The image used */
+    height: 650px; /* You must set a specified height */
+    max-width:100%;
+    background-size: cover;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border-bottom-left:10px;
+    border-bottom-right:10px;
+    position:relative;
+    margin-top:5%;
+  }
+
+
+
+  section.imagy-background {
+    position: relative;
+}
+
+.imagy-background .container-fluid {
+    position: absolute;
+    bottom: 10%;
+    left: auto;
+}
+
+  .imagy-content h2{
+    font-size:4rem;
+    font-weight:700;
+    line-height:3.5rem;
+  }
+
+  .imagy-content p{
+    margin-top:-5px;
+  }
+
+.paragraphs{
+    height: 400px; 
+    max-width:75%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between ;
+    margin-top:5%;
+}
+
+.icons{
+    display:flex;
+    justify-content:space-between;
+    width:70%;
+}
+
+.paragraphs .parent .child h2{
+    color:black;
+    font-size:2rem;
+    font-wight:900;
+    padding: 5% 0;
+}
